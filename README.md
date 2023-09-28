@@ -5,7 +5,9 @@
 
 Welcome to the Twitter Post App, a simple social media application where users can create and manage their posts. Share your thoughts, ideas, and updates with the world in a user-friendly environment.
 
-![Twitter Post App Screenshot](screenshot.png)
+![Twitter Post App Screenshot]
+![image](https://github.com/MostlyTanvir/Twitter-Post-Clone/assets/66480107/be205909-dc30-4d2f-ae1b-6c4aa9cedb46)
+
 
 ## Features
 
@@ -78,7 +80,7 @@ If you have any questions or suggestions, feel free to contact the developer:
 
 ## Stay Connected
 
-Follow us on Twitter for updates: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+Follow us on Twitter for updates: [@YourTwitterHandle](https://twitter.com/TanvirA60430401)
 
 Enjoy tweeting and sharing your thoughts with the world using the Twitter Post App! 🚀
 ```
