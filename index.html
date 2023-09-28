@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- Link to Font Awesome for icons -->
+    <title>Twitter Post App</title>
+</head>
+<body>
+    <!-- Header section -->
+    <div class="header">
+        <img src="logo.png" alt="" srcset="">
+        <h1>Twitter : A Social Media App</h1> <!-- Heading for your app -->
+    </div>
+
+    <div class="container"> <!-- Container for the main content -->
+
+        <!-- Left section for creating posts -->
+        <div class="left">
+            <h3>Write your post here</h3> <!-- Heading for the post creation section -->
+            <form action="" id="form"> <!-- Form for submitting posts -->
+                <textarea name="" id="input" cols="50" rows="10" placeholder="Char Limit : 255 "></textarea> <!-- Textarea for entering post content -->
+                <br>
+                <span id="msg"></span> <!-- Span element for displaying validation messages -->
+                <br>
+                <br>
+                <button type="submit">Post</button> <!-- Button to submit the post -->
+                <span id="succ" style="color:green"></span> <!-- A span element for displaying success messages with green color -->
+            </form>
+        </div>
+
+        <!-- Right section for displaying posts -->
+        <div class="right">
+            <h3>Your Posts</h3> <!-- Heading for the user's posts section -->
+            <hr> <!-- Horizontal line for separation -->
+            <div id="post"> <!-- Container for displaying user's posts -->
+
+                <!-- Example post 1 -->
+                <div>
+                    <p>Javascript is really amazing. With the help of DOM it's just Boom!!</p> <!-- Text of the post -->
+                    <span class="option">
+                        <i onClick="editPost(this)" class="fa-solid fa-pen-to-square"></i> <!-- Edit icon with an onclick event -->
+                        <i onClick="deletePost(this)" class="fa-solid fa-trash"></i> <!-- Delete icon with an onclick event -->
+                    </span>
+                </div>
+
+                <!-- Example post 2 -->
+                <div>
+                    <p>React is another invention. If you know it, you can't resist to REACT WOW!!</p> <!-- Text of the post -->
+                    <span class="option">
+                        <i onClick="editPost(this)" class="fa-solid fa-pen-to-square"></i> <!-- Edit icon with an onclick event -->
+                        <i onClick="deletePost(this)" class="fa-solid fa-trash"></i> <!-- Delete icon with an onclick event -->
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>
+            <i> Developed by <a href="https://mostlytanvir.github.io/My-Portfolio/"> Tanvir Ahmed Khan </a> @2023 </i>
+        </p>
+    </footer>
+</body>
+<script src="script.js"></script> <!-- Link to your JavaScript file -->
+</html>

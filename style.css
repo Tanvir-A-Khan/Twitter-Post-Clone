@@ -1,0 +1,75 @@
+/* Global styling for the entire body */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif; /* Use a sans-serif font family with fallback options */
+    margin: 0 auto; /* Center the content horizontally */
+    width: max-content; /* Allow the body to expand to its content width */
+    background-color: #E6FFE6; /* Set the background color to a light green */
+    color: #333; /* Set the text color to a dark gray */
+}
+
+/* Style for the header image */
+.header img {
+    width: 40px; /* Set the width of the header image */
+    height: 40px; /* Set the height of the header image */
+}
+
+/* Styling for hyperlinks */
+a {
+    text-decoration: none; /* Remove underlines from hyperlinks */
+    text-emphasis-color: red; /* Set emphasis color for hyperlinks (not standard CSS; consider using 'color' for link text color) */
+}
+
+/* Header section */
+.header {
+    margin-top: 20px; /* Add top margin to the header */
+    margin-bottom: 10px; /* Add bottom margin to the header */
+    display: flex; /* Display header content as a flex container */
+    align-items: center; /* Center vertically within the header */
+    gap: 20px; /* Add horizontal spacing between elements */
+}
+
+/* Container for the main content */
+.container {
+    display: flex; /* Display main content as a flex container */
+    gap: 10px; /* Add spacing between main content sections */
+}
+
+/* Left section for creating posts */
+.left {
+    width: 500px; /* Set the width of the left section */
+    padding: 20px; /* Add padding around the left section */
+    border: 5px double #006400; /* Set a double border with a dark green color */
+    background-color: #DDFFDD; /* Set a light green background color */
+}
+
+/* Right section for displaying posts */
+.right {
+    width: 700px; /* Set the width of the right section */
+    padding: 20px; /* Add padding around the right section */
+    border: 5px double #006400; /* Set a double border with a dark green color */
+    background-color: #DDFFDD; /* Set a light green background color */
+}
+
+/* Style for individual posts */
+#post div {
+    display: flex; /* Display individual posts as flex containers */
+    align-items: center; /* Center content vertically within posts */
+    justify-content: space-between; /* Create space between content elements */
+}
+
+/* Style for the options (edit and delete icons) within posts */
+.option {
+    display: flex; /* Display options as flex containers */
+    gap: 25px; /* Add horizontal spacing between options */
+}
+
+/* Style for clickable icons */
+i {
+    cursor: pointer; /* Change the cursor to a pointer when hovering over clickable icons */
+    color: #006400; /* Set the icon color to dark green */
+}
+
+/* Style for validation messages */
+#msg {
+    color: red; /* Set the text color of validation messages to red */
+}
