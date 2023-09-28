@@ -1,6 +1,6 @@
 # Twitter-Post-Clone
 
-Live Preview link - https://mostlytanvir.github.io/Twitter-Post-Clone/
+Live Preview link - https://tanvir-a-khan.github.io/Twitter-Post-Clone/
 
 ![Twitter Post App Screenshot]
 ![image](https://github.com/MostlyTanvir/Twitter-Post-Clone/assets/66480107/be205909-dc30-4d2f-ae1b-6c4aa9cedb46)
